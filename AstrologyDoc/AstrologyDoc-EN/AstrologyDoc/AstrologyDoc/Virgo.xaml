@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Virgo"
+                   Title="Virgo"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Virgo.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"> </Image>
+        <Label Text="The great strength of the Virgo-born is in their practicality, sharp mind and attention to detail. They are industrious, methodical and efficient.  " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,270,300,300" />
+        <Label Text="When merged with their willingness to serve, Virgos become essential helpmates. They can be picky -- so what? " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,355,300,300" />
+        <Label Text="The sense of duty borne by these folks is considerable, and it ensures that they will always work for the greater good." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,420,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

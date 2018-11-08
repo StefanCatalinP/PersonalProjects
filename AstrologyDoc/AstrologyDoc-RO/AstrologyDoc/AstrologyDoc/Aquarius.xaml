@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Aquarius"
+                   Title="Aquarius"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="aquarius.png" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="Marile avantaje a celor născuți vărsători este viziunea, intelectual și umanitatea lor." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,240,300,300" />
+        <Label Text="Ei sunt determinați să facă lumea un loc mai bun, și să ajute pe toată pe parcursul vieții lor." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,300,300,300" />
+        <Label Text="Vărsătorilor le place să se înconjoare cu multe persoane, preferabil familia și prietenii." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,370,300,300" />
+        
+    </AbsoluteLayout>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Scorpio"
+                   Title="Scorpio"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Scorpio.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="The great strength of the Scorpio-born is in their determination, passion and motivation.  " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,270,300,300" />
+        <Label Text="Scorpios don't know the word quit, which is why they usually get the job done. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,335,300,300" />
+        <Label Text="A powerhouse? Like no other." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,385,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

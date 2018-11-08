@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Capricorn"
+                   Title="Capricorn"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Capricorn.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="The great strengths of the Capricorn-born are their willingness to work hard and their determination to succeed.  " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,250,300,300" />
+        <Label Text="Their ambition is boundless, yet they are cautious, responsible and always play fair." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,320,300,300" />
+        <Label Text="That's why their successes are all the more sweet." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,385,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

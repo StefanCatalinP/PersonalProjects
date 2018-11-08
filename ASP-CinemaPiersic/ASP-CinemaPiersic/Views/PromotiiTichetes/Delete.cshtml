@@ -1,0 +1,64 @@
+﻿@model CinemaPiersic.Models.PromotiiTichete
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Stergere promotie:</h2>
+
+<h3>Esti sigur ca vrei sa stergi asta?</h3>
+<div>
+    <h4>PromotiiTichete</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nume)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pret)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pret)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descriere)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descriere)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Data_Incepere)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data_Incepere)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Data_Sfarsit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data_Sfarsit)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sterge" class="btn btn-default" /> |
+            @Html.ActionLink("Inapoi la promotii", "Index")
+        </div>
+    }
+</div>

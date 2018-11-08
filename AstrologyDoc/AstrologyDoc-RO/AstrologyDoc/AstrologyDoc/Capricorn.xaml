@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Capricorn"
+                   Title="Capricorn"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Capricorn.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="Caracteristicile cele mai importante ale celor născuți în zodia capricorn este voință lor de a munci și determinarea de a avea success. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,250,300,300" />
+        <Label Text="Ambiția lor nu are limite, dar cu toate acestea ei sunt responsabili și mereu caută dreptatea." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,330,300,300" />
+        <Label Text="Întocmai de asta atunci când au success se pot bucură pe deplin de el." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,395,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

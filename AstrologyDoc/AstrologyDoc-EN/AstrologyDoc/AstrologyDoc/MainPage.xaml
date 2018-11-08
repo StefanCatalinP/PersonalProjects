@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AstrologyDoc"
+             x:Class="AstrologyDoc.MainPage"
+             Title="AstrologyDoc"
+             BackgroundColor="Black">
+
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="logo.png" AbsoluteLayout.LayoutBounds="87,30,200,200"></Image>
+            <Label Text="Are you in need of an astrological report?" TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="45,280,300,300" />
+            <Label Text="The Doc has you covered!" TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="95,300,300,300" />
+            <Button Text="Tap for Zodiac" FontAttributes="Bold" FontSize="20" AbsoluteLayout.LayoutBounds="80,460,200,70" IsEnabled="True"
+          Clicked="OnZodiac"  />
+        </AbsoluteLayout>
+        </ContentPage.Content>
+  
+</ContentPage>
+

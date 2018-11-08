@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AstrologyDoc"
+             x:Class="AstrologyDoc.MainPage"
+             Title="AstrologyDoc"
+             BackgroundColor="Black">
+
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="logo.png" AbsoluteLayout.LayoutBounds="87,30,200,200"></Image>
+            <!-- incarca imagini din partea de Android a aplicatiei, Resources-Drawable -->
+            <Label Text="Ai nevoie urgentă de un raport astrologic?" TextColor="CadetBlue" FontSize="15" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="45,280,300,300" />
+            <Label Text="Doctorul este aici pentru tine!" TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="95,300,300,300" />
+            <Button Text="Click pentru Zodiac" FontAttributes="Bold" FontSize="20" AbsoluteLayout.LayoutBounds="80,460,200,70" IsEnabled="True"
+          Clicked="OnZodiac"  />
+            <!-- butonul ce ma duce pe pagina cu zodiac-urile -->
+        </AbsoluteLayout>
+        <!-- layout ce permite pozitionare la milimetru -->
+    </ContentPage.Content>
+  
+</ContentPage>
+

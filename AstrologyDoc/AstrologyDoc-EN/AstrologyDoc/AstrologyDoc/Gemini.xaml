@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Gemini"
+                   Title="Gemini"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Gemini.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="The great strength of the Gemini-born is in their ability to communicate effectively and to think clearly.  " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,250,300,300" />
+        <Label Text="Adventures of the mind are what the Twins are all about. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,320,300,300" />
+        <Label Text="They also love to share themselves with their friends, and they make for charming companions." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,375,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

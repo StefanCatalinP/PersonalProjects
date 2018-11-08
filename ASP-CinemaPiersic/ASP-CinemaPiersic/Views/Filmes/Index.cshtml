@@ -1,0 +1,78 @@
+﻿@model IEnumerable<CinemaPiersic.Models.Filme>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista filme:</h2>
+
+<p>
+    @Html.ActionLink("Adaugare film", "Create")
+
+    @using (Html.BeginForm("", "Filmes", FormMethod.Get))
+    {
+    <p>
+        Titlul filmului: @Html.TextBox("SearchString")
+        <input type="submit" value="Cauta" />
+        <br />
+        <br />
+    <p>
+    </p>
+    </p>
+
+
+}
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Film)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Regizor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data_Premiera)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data_Finala)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Film)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Regizor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rating)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ora)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Data_Premiera)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Data_Finala)
+                </td>
+                <td>
+                    @Html.ActionLink("Modifica", "Edit", new { id = item.FilmeID }) |
+                    @Html.ActionLink("Detalii", "Details", new { id = item.FilmeID }) |
+                    @Html.ActionLink("Sterge", "Delete", new { id = item.FilmeID })
+                </td>
+            </tr>
+        }
+
+    </table>

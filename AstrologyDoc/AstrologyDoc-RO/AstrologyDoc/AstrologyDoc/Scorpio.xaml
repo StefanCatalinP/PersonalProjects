@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Scorpio"
+                   Title="Scorpio"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Scorpio.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="Cele mai puternice caracteristici ale celor născuți în zodia scorpionului sunt determinarea, pasiunea și motivația lor. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,270,300,300" />
+        <Label Text="Scorpionii nu știu când să renunțe și deobicei termină orice își propun. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,335,300,300" />
+        <Label Text="Să fie ei niște oameni foarte puternici? Fără doar și poate." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,385,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

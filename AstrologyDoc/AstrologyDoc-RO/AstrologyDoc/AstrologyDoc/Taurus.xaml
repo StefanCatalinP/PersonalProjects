@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Taurus"
+                   Title="Taurus"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Taurus.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="Puterea celor născuți în zodia taur stă în stabilitatea, loialitatea și determinarea lor fără limite." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,270,300,300" />
+        <Label Text="Taurii vor să termine tot ce își propun, și deobicei reușesc. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,335,300,300" />
+        <Label Text="Ce altă metodă mai bună de a își construi averea pe care o doresc?" TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,385,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

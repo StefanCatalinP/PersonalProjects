@@ -1,0 +1,72 @@
+﻿@model CinemaPiersic.Models.Filme
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Stergere film:</h2>
+
+<h3>Esti sigur ca vrei sa stergi asta?</h3>
+<div>
+    <h4>Filme</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Film)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Film)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Regizor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Regizor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ora)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ora)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Data_Premiera)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data_Premiera)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Data_Finala)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data_Finala)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sterge" class="btn btn-default" /> |
+            @Html.ActionLink("Inapoi la filme", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Cancer"
+                   Title="Cancer"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Cancer.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="Cel mai mare avantaj al celor născuți în zodia rac este tenacitatea cu care îi apară pe cei iubiți.  " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,250,300,300" />
+        <Label Text="Acești oameni nu cer multe, deobicei: o casă comfortabila împreună cu o atmosfera de liniște și pace sunt suficiente." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,320,300,300" />
+        <Label Text="Este acel instinct de a proteja care îi fac pe raci să fie o plăcere pentru cei din jur." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,405,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

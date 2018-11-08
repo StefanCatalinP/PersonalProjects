@@ -1,0 +1,2 @@
+android.app.Application
+AstrologyDoc_EN.AstrologyDoc_EN

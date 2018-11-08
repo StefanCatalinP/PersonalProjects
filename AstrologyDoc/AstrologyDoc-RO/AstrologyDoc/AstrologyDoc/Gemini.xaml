@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Gemini"
+                   Title="Gemini"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Gemini.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="Cele mai importante atuuri ale celor născuți în zodia capricornului este abilitatea lor de a comunica eficient și a gândi rațional. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,250,300,300" />
+        <Label Text="Fantezia și lumea interioară a mințîi este ceva specific lor." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,330,300,300" />
+        <Label Text="De asemenea ei mai iubesc să se sacrifice pentru prieteni, lucru care îi face să fie niște prieteni de nădejde." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,375,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

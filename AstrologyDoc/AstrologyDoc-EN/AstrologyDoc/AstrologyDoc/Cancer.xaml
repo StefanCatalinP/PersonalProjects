@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Cancer"
+                   Title="Cancer"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="Cancer.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="The great strength of the Cancer-born is the tenacity with which they protect their loved ones.  " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,250,300,300" />
+        <Label Text="These folks don't ask for much, either: a comfortable home and sense of peace about sums it up " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,320,300,300" />
+        <Label Text="It's that nurturing instinct which makes Cancers a pleasure to be with." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,385,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

@@ -1,0 +1,58 @@
+﻿@model CinemaPiersic.Models.PromotiiTichete
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalii promotie:</h2>
+
+<div>
+    <h4>PromotiiTichete</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nume)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pret)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pret)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descriere)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descriere)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Data_Incepere)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data_Incepere)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Data_Sfarsit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data_Sfarsit)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Modifica", "Edit", new { id = Model.PromotiiTicheteID }) |
+    @Html.ActionLink("Inapoi la promotii", "Index")
+</p>

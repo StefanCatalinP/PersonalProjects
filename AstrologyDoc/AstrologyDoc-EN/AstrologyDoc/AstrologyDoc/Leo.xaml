@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Leo"
+                   Title="Leo"
+                   BackgroundColor="Black">
+
+
+    <AbsoluteLayout>
+        <Image Source="Leo.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="The great strengths of the Leo-born are their creativity, idealism and leadership. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,270,300,300" />
+        <Label Text=" Lions don't lack for ambition, either, so they're likely to accomplish a lot -- and have fun while they're at it. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,320,300,300" />
+        <Label Text="Their warmth and loyalty ensures that others will enjoy the ride as well." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,390,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

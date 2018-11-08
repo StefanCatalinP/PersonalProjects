@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Aquarius"
+                   Title="Aquarius"
+                   BackgroundColor="Black">
+
+    <AbsoluteLayout>
+        <Image Source="aquarius.png" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="The great strengths of the Aquarius-born are their vision, intellect and humanity." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,240,300,300" />
+        <Label Text="They are determined to make the world a better place and to help everyone they can along the way." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,300,300,300" />
+        <Label Text="At play, Aquarians like to surround themselves with lots of people, preferably family and friends." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,370,300,300" />
+        
+    </AbsoluteLayout>
+</ContentPage>

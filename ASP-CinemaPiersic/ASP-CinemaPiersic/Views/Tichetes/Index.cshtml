@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CinemaPiersic.Models.Tichete>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista tichete:</h2>
+
+<p>
+    @Html.ActionLink("Adaugare tichet", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Film.Film)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nume.Nume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rand)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Loc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Data)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Film.Film)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nume.Nume)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rand)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Loc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data)
+        </td>
+        <td>
+            @Html.ActionLink("Modifica", "Edit", new { id=item.TicheteID }) |
+            @Html.ActionLink("Detalii", "Details", new { id=item.TicheteID }) |
+            @Html.ActionLink("Sterge", "Delete", new { id=item.TicheteID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace AstrologyDoc
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Aquarius : ContentPage
+    {
+        public Aquarius()
+        {
+            InitializeComponent();
+        }
+
+    }
+}

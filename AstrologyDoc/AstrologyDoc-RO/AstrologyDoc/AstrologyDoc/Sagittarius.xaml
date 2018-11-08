@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:local="clr-namespace:AstrologyDoc;assembly=AstrologyDoc"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   x:Class="AstrologyDoc.Sagittarius"
+                   Title="Sagittarius"
+                   BackgroundColor="Black">
+    <AbsoluteLayout>
+        <Image Source="Sagittarius.jpg" AbsoluteLayout.LayoutBounds="80,30,200,200"></Image>
+        <Label Text="Cea mai importantă caracteristică ale celor născuți în zodia săgetătorului , este natural lor filosofică, deschisă și curioasă. " TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,270,300,300" />
+        <Label Text="Acești oameni caută atât cunoașterea și adevărat, cât și caută să exploreze lumea împreună cu ceilalți." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,345,300,300" />
+        <Label Text="Spiritul lor generos și optimistic îi face o plăcere să îi ai aproape." TextColor="CadetBlue" FontSize="16" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="40,408,300,300" />
+
+    </AbsoluteLayout>
+</ContentPage>

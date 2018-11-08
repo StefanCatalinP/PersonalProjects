@@ -1,0 +1,74 @@
+﻿@model IEnumerable<CinemaPiersic.Models.PromotiiTichete>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista promotii tichete:</h2>
+
+<p>
+    @Html.ActionLink("Adaugare promotie", "Create")
+
+    @using (Html.BeginForm("", "PromotiiTichetes", FormMethod.Get))
+    {
+    <p>
+        Numele promotiei: @Html.TextBox("SearchString") 
+        <input type="submit" value="Cauta" />
+        <br />
+        <br />
+    <p>
+    </p>
+    </p>
+
+
+}
+
+
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pret)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descriere)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data_Incepere)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data_Sfarsit)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nume)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pret)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descriere)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Data_Incepere)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Data_Sfarsit)
+                </td>
+                <td>
+                    @Html.ActionLink("Modifica", "Edit", new { id = item.PromotiiTicheteID }) |
+                    @Html.ActionLink("Detalii", "Details", new { id = item.PromotiiTicheteID }) |
+                    @Html.ActionLink("Sterge", "Delete", new { id = item.PromotiiTicheteID })
+                </td>
+            </tr>
+        }
+
+    </table>
